@@ -3,12 +3,18 @@ import MyButton from './MyButton.js';
 import MyInput from './MyInput.js';
 
 function App() {
+  const a=10;
+  let content;
+    if (a==10){
+        content=<MyInput />
+    }
+    else{
+      content=<MyButton />
+    }
   return (
+    
     <div className="App">
-      <h1>Welcome to the React App</h1>
-      <MyInput />
-      <MyButton />
-      
+      {content}
     </div>
   );
 }
