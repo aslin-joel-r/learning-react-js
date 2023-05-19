@@ -6,22 +6,23 @@ function App() {
   const a=true;
   let content;
   
-  const products = [
-    { title: 'Cabbage', id: 1 },
-    { title: 'Garlic', id: 2 },
-    { title: 'Apple', id: 3 },
-  ];
-  const listItems = products.map(product =>
-    <li key={product.id}>
-      {product.title}
-    </li>
-  );
+  const names=[
+    {name:'Aslin R',role:'Backend Developer'},
+    {name:'Roshan lal',role :'Backend Developer'},
+    {name:'Joevin Stany',role:'Frontend Developer'},
+  ]
+  
+  const everyone = names.map(info=>{
+    return <li>{info.name}</li>;
+  })
+  
+  
   return (
     
    
     <div>
     
-      <ul>{listItems}</ul>
+      <ul>{everyone}</ul>
     
     </div>
   );
