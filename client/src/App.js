@@ -13,7 +13,12 @@ function App() {
   ]
   
   const everyone = names.map(info=>{
-    return <li>{info.name}</li>;
+    return <div>
+      <li>{info.name}</li>
+      <li>{info.role}</li>
+      <br/>
+    </div>
+    ;
   })
   
   
