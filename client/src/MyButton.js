@@ -3,6 +3,6 @@ export default function MyButton(){
         alert("You clicked me");
     }
     return(
-        <button onClick={clickedMe()}>I am a Button</button>
+        <button onClick={clickedMe}>I am a Button</button>
     )
 }
