@@ -8,8 +8,10 @@ function App() {
   
   const names=[
     {name:'Aslin R',role:'Backend Developer'},
-    {name:'Roshan lal',role :'Backend Developer'},
-    {name:'Joevin Stany',role:'Frontend Developer'},
+    {name:'Roshan Lal ',role :'Backend Developer'},
+    {name:'Joevin Stany ',role:'Frontend Developer'},
+    {name:'Sherin S',role:'Frontend Developer'},
+    {name:'Dhusny Raj S',role:'Frontend Developer'}
   ]
   
   const everyone = names.map(info=>{
