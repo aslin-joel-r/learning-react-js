@@ -19,6 +19,7 @@ function App() {
       <li style={{color: info.role=='Backend Developer' ?'red':'green' }}>{info.name}</li>
       <li>{info.role}</li>
       <br/>
+      
     </div>
     ;
   })
@@ -30,7 +31,7 @@ function App() {
     <div>
     
       <ul>{everyone}</ul>
-    
+      <MyButton/>
     </div>
   );
 }
