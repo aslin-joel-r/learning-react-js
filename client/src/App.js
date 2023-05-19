@@ -14,7 +14,7 @@ function App() {
   
   const everyone = names.map(info=>{
     return <div>
-      <li>{info.name}</li>
+      <li style={{color: info.role=='Backend Developer' ?'red':'green' }}>{info.name}</li>
       <li>{info.role}</li>
       <br/>
     </div>
