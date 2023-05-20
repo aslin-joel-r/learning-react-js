@@ -1,4 +1,4 @@
-import MyApp from './components/MyApp.css'
+import MyApp from './MyApp.css'
 
 export default function MyInput(){
     const info={
