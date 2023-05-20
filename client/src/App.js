@@ -13,7 +13,7 @@ function App() {
     <div>
     
       <MyButton count={count} onClick={clickedMe}/>
-      
+      <MyButton count={count} onClick={clickedMe}/>
     </div>
   );
 }
