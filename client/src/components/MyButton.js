@@ -1,6 +1,6 @@
-export default function MyButton({ count, onClick }) {
+export default function MyButton({ count, onClick ,name}) {
     return (
-      <button onClick={onClick}>click me {count}</button>
+      <button onClick={onClick}>{name} {count}</button>
     );
   }
   

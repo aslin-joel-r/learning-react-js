@@ -12,8 +12,8 @@ function App() {
   return (
     <div>
     
-      <MyButton count={count} onClick={clickedMe}/>
-      <MyButton count={count} onClick={clickedMe}/>
+      <MyButton count={count} onClick={clickedMe} name={'button one'}/>
+      <MyButton count={count} onClick={clickedMe} name={'button two'}/>
     </div>
   );
 }
