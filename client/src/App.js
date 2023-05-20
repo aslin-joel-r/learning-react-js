@@ -1,6 +1,7 @@
 import './App.css';
 import MyButton from './MyButton.js';
 import MyInput from './MyInput.js';
+import { useState } from 'react';
 
 function App() {
   const a=true;
@@ -22,16 +23,16 @@ function App() {
       
     </div>
     ;
-  })
-  
-  
+  }) 
+  const [count,setCount]=useState(0)
+  function clicked(){
+    setCount(count+1)
+  }
   return (
-    
-   
     <div>
     
-      <ul>{everyone}</ul>
-      <MyButton/>
+      <button onClick={clicked}>Click me</button>
+      <h3>{count}</h3>
     </div>
   );
 }
