@@ -1,10 +1,10 @@
 import './App.css';
-import add from './components/add.js'
+
 
 function App() {
-  add(39,5);
-  
-  return 1;
+
+  const msg='HEllo welcomes to the React  world'
+  return <h1>{msg}</h1>;
 }
 
 export default App;
