@@ -1,12 +1,14 @@
 import './App.css';
+import First from './components/First';
 
-function Component(){
-  return <h1>I am a Component</h1>
-}
 function App() {
 
-  const msg='HEllo welcomes to the React  world'
-  return <h1><Component /></h1>;
+  return (
+    <div>
+      <h1><First  name='Aslin' age='20'/></h1>
+    </div>
+  )
+ 
 }
 
 export default App;
