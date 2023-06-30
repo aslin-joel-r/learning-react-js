@@ -1,7 +1,7 @@
 function Second(props) {
     return (
         <div>
-            <h1>Second </h1>
+            <h1 style={{color:'red'}}>Second </h1>
         </div>
     )
 }
