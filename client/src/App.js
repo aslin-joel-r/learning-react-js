@@ -5,9 +5,8 @@ function App() {
 
   return (
     <div>
-      <First  name='Aslin' age='20'/>
-      <First  name='Bob' age='22'/>
-      <First  name='Vinoth' age='21'/>
+      <First  name='Aslin' age='20' content={<h2>My name is </h2>}/>
+    
     </div>
   )
  
