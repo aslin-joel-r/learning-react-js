@@ -8,7 +8,7 @@ function First(props){
     console.log(props)
     return (
         <>
-        {props.content}
+        {props.children}
         </>
     )
 }
