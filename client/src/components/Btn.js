@@ -4,7 +4,7 @@ function Btn(){
         console.log('clicked')
     }
     return (
-        <button onClick={function(){console.log("ananymous function")}}>
+        <button onClick={()=>{console.log("arrow function")}}>
             Click me
         </button>
     )
