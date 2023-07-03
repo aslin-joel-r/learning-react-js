@@ -7,10 +7,7 @@ function App() {
 
   return (
     <div>
-      <First>
-        <Second>
-          </Second>
-      </First>
+     <Second/>
     </div>
   )
  
