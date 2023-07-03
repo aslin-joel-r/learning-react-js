@@ -1,10 +1,10 @@
 function Btn(){
 
-    const clicked=()=>{
-        console.log('clicked')
+    function clicked(){
+        console.log('separate function')
     }
     return (
-        <button onClick={()=>{console.log("arrow function")}}>
+        <button onClick={clicked}>
             Click me
         </button>
     )
