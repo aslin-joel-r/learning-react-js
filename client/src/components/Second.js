@@ -1,7 +1,10 @@
 const Second=()=> {
+    var val=7;
+
+    val = val ==4 ? console.log('if statement'):console.log('else statement');
     return (
         <div>
-            <h1 style={{color:'red'}}>Second , wow</h1>
+            <h2>{val ==4 ? 'if statement':'else statement'}</h2>
         </div>
     )
 }
