@@ -1,2 +1,5 @@
 # learning-react-js
-Reference - https://react.dev/learn/
+### References 
+  https://react.dev/learn/
+
+  https://www.coursera.org/learn/react-basics
