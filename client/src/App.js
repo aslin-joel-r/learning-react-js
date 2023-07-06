@@ -4,12 +4,12 @@ import Workdays from './components/Workdays';
 function App() {
 
   var day=new Date().getDay();
-  day = 9
+  day = 1
   const msg=day>6 ? <Weekends/> : <Workdays/>
   
   return (
     <div>
-     {msg}
+     {day==1 && <h1>Today is Monday</h1>}
     </div>
   )
 }
