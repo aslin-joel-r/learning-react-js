@@ -1,7 +1,7 @@
 function Home(){
     return (
         <h1>
-            I am a home page
+            Welcome
         </h1>
     )
 }
