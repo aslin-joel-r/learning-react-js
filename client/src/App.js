@@ -1,4 +1,5 @@
-
+import React from "react";
+import ReactPlayer from "react-player/youtube";
 
 const App = () => {
   return (
@@ -10,7 +11,7 @@ const App = () => {
 
 const MyVideo = () => {
   return (
-    <video src='https://www.youtube.com/watch?v=ysz5S6PUM-U' controls/>
+    <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
   );
 };
 
