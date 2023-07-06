@@ -1,22 +1,18 @@
-import About from './components/About';
-import Home from './components/Home';
-import {Routes, Route,Link} from 'react-router-dom';
-import Contact from './components/Contact';
+import Weekends from './components/Weekend';
+import Workdays from './components/Workdays';
 
 function App() {
 
+  var day=new Date().getDay();
+  console.log(day)
+  
+  if(day<=6){
+    return <Workdays/>
+
+  }
   return (
     <div>
-      <nav>
-        <Link className='nav' to='/'>Home</Link>
-        <Link className='nav' to='/about'>About</Link>
-        <Link className='nav' to='/contact'>Contact</Link>
-      </nav>
-     <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/about' element={<About />} />
-      <Route path='/contact' element={<Contact />}/>
-     </Routes>
+     <Weekends/>
     </div>
   )
 }
