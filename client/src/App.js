@@ -1,4 +1,4 @@
-
+import Second from './components/Second'
 
 function App() {
 
