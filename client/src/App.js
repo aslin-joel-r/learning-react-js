@@ -4,15 +4,12 @@ import Workdays from './components/Workdays';
 function App() {
 
   var day=new Date().getDay();
-  console.log(day)
+  day = 9
+  const msg=day>6 ? <Weekends/> : <Workdays/>
   
-  if(day<=6){
-    return <Workdays/>
-
-  }
   return (
     <div>
-     <Weekends/>
+     {msg}
     </div>
   )
 }
