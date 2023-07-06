@@ -1,17 +1,15 @@
 import React from "react";
-import ReactPlayer from "react-player/youtube";
+import ReactPlayer from 'react-player';
 
 const App = () => {
+
+  const vid="https://www.youtube.com/watch?v=kMiy8ZywF88"
   return (
     <div>
-      <MyVideo />
+     <ReactPlayer url={vid}
+     playing={true}
+     volume={0.5} />
     </div>
-  );
-};
-
-const MyVideo = () => {
-  return (
-    <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' />
   );
 };
 
