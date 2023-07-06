@@ -7,6 +7,9 @@ function App() {
   day = 1
   const msg=day>6 ? <Weekends/> : <Workdays/>
   
+  switch(day){
+    
+  }
   return (
     <div>
      {day==1 && <h1>Today is Monday</h1>}
