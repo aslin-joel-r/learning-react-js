@@ -15,22 +15,27 @@ function App() {
   };
 
   function minus(e) {
+    e.preventDefault();
     setResult((result) => result - Number(inputRef.current.value));
   };
 
   function times(e) {
+    e.preventDefault();
     setResult((result) => result * Number(inputRef.current.value));
   };
 
   function divide(e) {
+    e.preventDefault();
     setResult((result) => result / Number(inputRef.current.value));
   };
 
   function resetInput(e) {
+    e.preventDefault();
     inputRef.current.value = "";
   };
 
   function resetResult(e) {
+    e.preventDefault();
     setResult(0);
   };
 
