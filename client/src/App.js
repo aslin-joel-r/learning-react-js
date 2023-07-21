@@ -26,7 +26,7 @@ function App() {
 
   function divide(e) {
     e.preventDefault();
-    setResult((result) => result / Number(inputRef.current.value));
+    setResult((result) => result /Number(inputRef.current.value));
   };
 
   function resetInput(e) {
